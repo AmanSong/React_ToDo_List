@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(69, 69, 69);
+}
+
+.app {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    margin-bottom: 5%;
+    color: aliceblue;
+}
+
+.todo {
+    margin-top: 5%;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    width: 35em;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+.todo_list {
+    display: inline-block;
+}
+
+.text-box {
+    text-align: center;
+    margin-right: 1rem;
+    color: rgb(0, 0, 0);
+    width: 16em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    word-wrap: break-word;
+    height: auto;
+    resize: vertical;
+}
+
+.form {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    text-align: center;
+    width: 50em;
+    height: 3em;
+    background-color: rgb(187, 187, 187);
+    border-radius: 1em;
+}
+
+.button {
+    margin-bottom: 1em;
+    position: relative;
+    background-color: rgb(120, 120, 120);
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+.button-box {
+    margin-left: 5em;
+}
+
+.button:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+.add-button:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+.add-button {
+    background-color: rgb(120, 120, 120);
+    color: aliceblue;
+    width: 4em;
+    height: 2.4em;
+    margin-left: .5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+    margin-right: 5em;
+}
+
+form input {
+    width: 50%;
+    height: 2em;
+    background-color: rgb(159, 159, 159);
+    border-radius: .5em;
+}
+
+form input:focus {
+    background-color: rgb(179, 179, 179);
+}
